@@ -32,6 +32,18 @@ header {
   margin: 0 auto;
 }
 
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+}
+
 nav a {
   margin-left: 1rem;
   text-decoration: none;
@@ -239,6 +251,20 @@ footer {
   font-size: 0.9rem;
 }
 
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer-brand .logo {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
 .fade-in {
   opacity: 0;
   transform: translateY(20px);
@@ -260,15 +286,15 @@ footer {
 
 .tshirt-section {
   display: flex;
-  align-items: center;
+  align-items:  center;
   justify-content: space-between;
   gap: 4rem;
   margin: 4rem auto;
 }
 
 .tshirt-content {
-  flex: 1;
-  order: 1;
+  flex: 3;
+  order: 3;
 }
 
 .tshirt-image {
